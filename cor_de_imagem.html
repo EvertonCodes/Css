@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e imagem de fundo</title>
+    <style type="text/css"> 
+    /*
+    .fundo{
+        background-color: #f2f2f2;
+        color: rgb(21, 36, 250);
+    } */
+
+    
+    h1 {
+        background-image: url('img/cozinha.jpg');
+        /* repeat-x, repeat-y, no-repeat, repeat*/
+        background-repeat: repeat;
+        /*scrool, fixed*/
+        background-attachment: scroll;
+        /*
+        primeiro valor: left, center, right
+        segundo valor: top, center, bottom
+        */
+        background-position: center center ;
+    } 
+
+    .fundo{
+        background: #f2f2f2 url('img/cozinha.jpg') no-repeat scroll center ;
+    }
+
+    </style>
+</head>
+<body class="fundo">
+    <h1>Conteúdo de título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corrupti. Nisi est dignissimos, quaerat itaque natus numquam laboriosam nihil quas doloremque autem? Fugit sapiente dolorem saepe possimus maiores amet facilis?</p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam quis consectetur adipisci modi perferendis blanditiis iusto quaerat? Libero iusto possimus maxime quibusdam facere fugit odio sequi obcaecati culpa sint?</p>
+
+    
+</body>
+</html>
